@@ -109,7 +109,7 @@ body.izing {
 .modes .mode span { font-size: .72rem; opacity: .8; margin-left: 4px; font-variant: small-caps; letter-spacing: .06em; }
 .ghost, #random { background: transparent !important; color: var(--rubric) !important; border-color: var(--rubric) !important; box-shadow: none !important; }
 .ghost:hover:not(:disabled) { background: rgba(179,38,30,.1) !important; }
-.coinbox { display: flex; justify-content: center; align-items: flex-end; gap: 30px; height: 150px; padding-top: 54px; perspective: 800px; margin: 0; }
+.coinbox { display: flex; justify-content: center; align-items: flex-end; gap: 30px; height: 176px; padding: 54px 0 30px; perspective: 800px; margin: 0; }
 .coin {
   position: relative; width: 96px; height: 96px; padding: 0; border: 0; border-radius: 50%; background: none; box-shadow: none;
   transform-style: preserve-3d; transform: rotateX(0deg); cursor: pointer;
@@ -131,5 +131,5 @@ body.izing {
 .figure li.new .bar { animation: lineflash 1.2s ease-out; }
 @keyframes lineflash { 0% { background: var(--rubric); transform: scaleX(1.25); } 100% { background: var(--ink); transform: scaleX(1); } }
 .field[hidden], .progress[hidden], .coinbox[hidden], .tally[hidden] { display: none; }
-@media (max-width: 560px) { .coinbox { gap: 14px; height: 130px; padding-top: 50px; } .coin { width: 80px; height: 80px; } .cface b { font-size: 2rem; } }
+@media (max-width: 560px) { .coinbox { gap: 14px; height: 150px; padding: 50px 0 26px; } .coin { width: 80px; height: 80px; } .cface b { font-size: 2rem; } }
 @media (prefers-reduced-motion: reduce) { .figure li.new .bar { animation: none; } }

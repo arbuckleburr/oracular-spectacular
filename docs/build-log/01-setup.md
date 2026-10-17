@@ -176,3 +176,7 @@ Bullets only. Append only; never edit past entries.
 ## 2026-10-17 I Zing coins moved up
 - .coinbox height 190 -> 150 px, padding-top 70 -> 54 (mobile 160/56 -> 130/50); toss arc 74 -> 50 px so the coin stays below the caption
 - measured in browser pane: coin at peak 50 px below the caption, at rest 60 px higher than before; mobile not checked
+
+## 2026-10-17 I Zing coin spacing fix
+- previous change shrank the coin box but the coins still sat flush against the tally text below; added bottom padding so coins sit above it (.coinbox height 176, padding 54/0/30; mobile 150, 50/0/26)
+- measured in browser pane: coin bottom to tally 32 px (was ~2), caption to coin 56 px; mobile not checked; not committed
