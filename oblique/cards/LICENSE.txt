@@ -1,0 +1,8 @@
+Card images in this folder: CBD Tarot de Marseille, a faithful reproduction of the traditional Tarot cards
+based on the standard deck printed in Marseille by Nicolas Conver, 1760, restored and adapted by
+Dr. Yoav Ben-Dov (www.cbdtarot.com), (c) 2010-2011.
+Licence: Creative Commons Attribution-NonCommercial-ShareAlike 2.5 (CC BY-NC-SA 2.5),
+https://creativecommons.org/licenses/by-nc-sa/2.5/ (stated on the deck's own credit card).
+Source copy: https://archive.org/details/the-tarot-of-marseilles-full-deck
+Changes: files renamed only (image data unmodified). Any adaptation of these images must keep the
+same licence and credit. Non-commercial use only.

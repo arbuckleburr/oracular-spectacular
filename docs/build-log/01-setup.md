@@ -95,3 +95,51 @@ Bullets only. Append only; never edit past entries.
 ## 2026-10-17 publish
 - first commit of whole project (corpus, tools, docs, front-end) pushed to origin/main
 - Pages enabled: main, /
+
+## 2026-10-17 subtitle
+- header subtitle changed to "Roll the bones…" (was "Three dice. Five hundred and twelve sayings of the ancients."); not committed
+
+## 2026-10-17 hub
+- git mv index.html, app.js -> oracle/; new root index.html hub; style.css shared (+ .crumb/.cards/.card)
+- oracle page: "← All the oracles" link; fetch path ../data/phrases.json
+- tested locally: hub renders, card -> /oracle/, manual entry returns phrase; not committed
+
+## 2026-10-17 oblique tarot kickoff
+- decisions/oblique-tarot.md created; DECISIONS.md and NEXT-SESSION.txt updated
+- no code, no downloads, no hub card yet
+
+## 2026-10-17 image sources, round 2
+- Gallica blocked (Cloudflare challenge, not bypassed); IA items checked, none clean (see decisions/oblique-tarot.md); no downloads
+
+## 2026-10-17 oblique tarot assets
+- downloaded 81 JPEGs from IA item the-tarot-of-marseilles-full-deck (user-approved); 293x567 px
+- oblique/cards/ (78 faces + back.jpg + LICENSE.txt), oblique/data/cards.json (78 entries)
+- licence found on credit card z01: CC BY-NC-SA 2.5 (Ben-Dov); logged in decisions/oblique-tarot.md
+- fixed Épées elisions (d'Épées); no page, prompts or hub card yet; not committed
+
+## 2026-10-17 minor prompt drafts
+- oblique/data/drafts/minors-draft.json: 112 drafts (4 suits x 14 x 2), all <=5 words, all unique; unapproved
+
+## 2026-10-17 major prompt drafts
+- minors approved; majors-draft.json: 44 drafts, 6/6/5/5 by field, all <=5 words, unique across all 156; unapproved
+
+## 2026-10-17 oblique tarot page
+- prompts.json (156) merged from approved drafts; oblique/index.html + app.js; style.css additions; hub card added
+- fixed class clash (.card hub vs tarot image -> .face)
+- tested in browser pane: draw, reversed rotation, save, hub link: ok; mobile/copy/reload/reduced-motion not tested; not committed
+
+## 2026-10-17 card corners
+- card backs had white outside their rounded corners (square JPEG); measured arc radius ~17px on 293x567
+- .face: border-radius 6% / 3.1%, dropped white bg and 1px border; applies to faces and back; image files untouched
+- checked in browser pane (backs and three faces); not tested on mobile; not committed
+
+## 2026-10-17 oblique tarot flip fix
+- diagnosis (sampled wrapper transform/src every 60ms): face src was swapped in before the animation, so the back vanished at once and the face grew from edge-on; reversed cards (rotated 180deg in-plane) made the jump most obvious; on redraw old faces snapped to back; image could also show before loading
+- fix: flipTo() in oblique/app.js (Web Animations): back turns edge-on (220ms), src swapped there after img.decode(), face opens (300ms); prompt text appears after the flip; on redraw shown cards flip back first; all card images preloaded
+- removed CSS .cardwrap.flip / @keyframes turn
+- verified by sampling two draws incl. a reversed card; visual check by developer owed
+
+## 2026-10-17 oblique tarot flip fix 2
+- symptom: cards jumped above/below the line during flip. cause: perspective(800px) rotateY made the card swell (height 368 -> 417, top 264 -> 239) mid-flip; same for all three, most noticeable beside a settled neighbour
+- fix: flip uses scaleX(1<->0); removed perspective from .cardwrap
+- verified: sampled top/height of all three cards every 60ms through a full redraw: constant 264/368; visual check by developer owed

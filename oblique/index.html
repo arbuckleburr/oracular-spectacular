@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oblique Tarot</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="sheet wide">
+  <header>
+    <p class="crumb"><a href="../">&larr; All the oracles</a></p>
+    <h1>Oblique Tarot</h1>
+    <p class="sub">Three cards. One lateral move for the maker.</p>
+  </header>
+
+  <div class="actions">
+    <button id="draw" type="button">Draw three cards</button>
+  </div>
+
+  <section id="spread" class="spread" aria-live="polite">
+    <article class="slot" data-i="0"><h2>The situation</h2><div class="cardwrap"><img class="face" alt="Card back" src="cards/back.jpg"></div><p class="cname"></p><p class="cprompt"></p><p class="cfield"></p></article>
+    <article class="slot" data-i="1"><h2>The obstacle</h2><div class="cardwrap"><img class="face" alt="Card back" src="cards/back.jpg"></div><p class="cname"></p><p class="cprompt"></p><p class="cfield"></p></article>
+    <article class="slot" data-i="2"><h2>The oblique move</h2><div class="cardwrap"><img class="face" alt="Card back" src="cards/back.jpg"></div><p class="cname"></p><p class="cprompt"></p><p class="cfield"></p></article>
+  </section>
+
+  <div id="tools" class="actions small" hidden>
+    <button id="copy" type="button">Copy spread</button>
+    <button id="save" type="button">Save spread</button>
+    <span id="note" class="note" role="status"></span>
+  </div>
+
+  <p id="error" class="error" hidden></p>
+
+  <section class="saved">
+    <h2>Saved spreads</h2>
+    <p id="empty" class="empty">Nothing saved yet.</p>
+    <ul id="list"></ul>
+  </section>
+
+  <footer>
+    Card images: <em>CBD Tarot de Marseille</em> by Dr. Yoav Ben-Dov (<a href="https://cbdtarot.com">cbdtarot.com</a>),
+    restored from Nicolas Conver, 1760,
+    <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/">CC BY-NC-SA 2.5</a>; non-commercial use.
+    Cards are drawn with the browser's secure random source. Saved spreads stay in this browser only.
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

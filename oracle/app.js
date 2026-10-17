@@ -192,7 +192,7 @@
   });
 
   setBusy(true);
-  fetch("data/phrases.json")
+  fetch("../data/phrases.json")
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (arr) {
       arr.forEach(function (p) { byKey[p.key] = p; });
@@ -203,6 +203,6 @@
     .catch(function () {
       var e = $("error");
       e.hidden = false;
-      e.textContent = "The oracle's scrolls could not be loaded. Serve this folder over HTTP (for example: python3 -m http.server) rather than opening the file directly.";
+      e.textContent = "The oracle's scrolls could not be loaded. Serve this folder over HTTP (for example: python3 -m http.server, then open /oracle/) rather than opening the file directly.";
     });
 })();

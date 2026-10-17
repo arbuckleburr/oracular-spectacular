@@ -137,3 +137,43 @@ footer { margin-top: 24px; text-align: center; font-size: .8rem; color: var(--in
 @media (prefers-reduced-motion: reduce) {
   .die.rolling, .die.landed, .oracle { animation: none; }
 }
+
+/* Hub page and breadcrumb */
+.crumb { margin: 0 0 8px; text-align: left; font-size: .9rem; }
+.crumb a, .card a { color: var(--rubric); }
+.cards { display: grid; gap: 16px; margin: 26px 0 8px; }
+.card {
+  display: block; text-decoration: none; color: var(--ink);
+  padding: 16px 18px; border: 1px solid var(--rule); background: rgba(255,250,230,.45);
+  box-shadow: inset 0 0 0 3px rgba(181,155,107,.25); border-radius: 2px;
+}
+.card:hover, .card:focus-visible { background: rgba(255,250,230,.8); outline: 2px solid var(--rubric); outline-offset: 2px; }
+.card h2 { margin: 0 0 4px; }
+.card p { margin: 0; color: var(--ink-soft); font-style: italic; }
+
+/* Oblique Tarot */
+.sheet.wide { max-width: 860px; }
+.spread { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin: 22px 0 6px; }
+.slot { text-align: center; }
+.slot h2 { margin: 0 0 8px; font-size: 1.05rem; }
+.cardwrap { display: inline-block; }
+.face {
+  display: block; width: 100%; max-width: 190px; height: auto;
+  /* The images are square-cornered JPEGs with white corners outside the card's own rounded edge
+     (measured radius about 17px on a 293x567 image). Clip to that radius so no white shows,
+     on both faces and backs. */
+  border-radius: 6% / 3.1%;
+  box-shadow: 2px 4px 8px rgba(0,0,0,.4);
+}
+.face.rev { transform: rotate(180deg); }
+.cname { margin: 10px 0 2px; font-size: .85rem; color: var(--ink-soft); min-height: 1.2em; }
+.cprompt { margin: 4px 0; font-size: 1.45rem; line-height: 1.25; color: var(--ink); min-height: 1.3em; }
+.cfield { margin: 0; font-size: .8rem; font-variant: small-caps; letter-spacing: .08em; color: var(--rubric); }
+.slot:not(.shown) .cname, .slot:not(.shown) .cprompt { visibility: hidden; }
+.slot.shown .cprompt { animation: unfurl .6s ease-out; }
+footer a { color: var(--rubric); }
+@media (max-width: 560px) {
+  .spread { grid-template-columns: 1fr; gap: 26px; }
+  .face { max-width: 150px; }
+}
+@media (prefers-reduced-motion: reduce) { .slot.shown .cprompt { animation: none; } }

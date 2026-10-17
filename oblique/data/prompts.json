@@ -1,0 +1,938 @@
+[
+ {
+  "card": "major-00",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Play without rehearsal."
+ },
+ {
+  "card": "major-00",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Rehearse the accident."
+ },
+ {
+  "card": "major-01",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Use the nearest tool."
+ },
+ {
+  "card": "major-01",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Make the tool."
+ },
+ {
+  "card": "major-02",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Score the silence."
+ },
+ {
+  "card": "major-02",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Interrupt the silence."
+ },
+ {
+  "card": "major-03",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Overfill the canvas."
+ },
+ {
+  "card": "major-03",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Leave the ground bare."
+ },
+ {
+  "card": "major-04",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Impose a form."
+ },
+ {
+  "card": "major-04",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Abandon the form."
+ },
+ {
+  "card": "major-05",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Obey the old form."
+ },
+ {
+  "card": "major-05",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Break the old form."
+ },
+ {
+  "card": "major-06",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Pair opposing hues."
+ },
+ {
+  "card": "major-06",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Separate the pair."
+ },
+ {
+  "card": "major-07",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Never reread."
+ },
+ {
+  "card": "major-07",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Reread everything."
+ },
+ {
+  "card": "major-08",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Balance on a point."
+ },
+ {
+  "card": "major-08",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Let it lean."
+ },
+ {
+  "card": "major-09",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Work by lamplight."
+ },
+ {
+  "card": "major-09",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Show it daylight."
+ },
+ {
+  "card": "major-10",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Return to the start."
+ },
+ {
+  "card": "major-10",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Never return."
+ },
+ {
+  "card": "major-11",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Underline it; go bold."
+ },
+ {
+  "card": "major-11",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Soften the verb."
+ },
+ {
+  "card": "major-12",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Paint it upside down."
+ },
+ {
+  "card": "major-12",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Rotate a quarter-turn."
+ },
+ {
+  "card": "major-13",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Carve it to bone."
+ },
+ {
+  "card": "major-13",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Keep the offcuts."
+ },
+ {
+  "card": "major-14",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Blend two themes."
+ },
+ {
+  "card": "major-14",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Separate the voices."
+ },
+ {
+  "card": "major-15",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Indulge the purple passage."
+ },
+ {
+  "card": "major-15",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Cut the flourish."
+ },
+ {
+  "card": "major-16",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Drop it."
+ },
+ {
+  "card": "major-16",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Brace the weak joint."
+ },
+ {
+  "card": "major-17",
+  "orientation": "upright",
+  "field": "music",
+  "text": "One high note."
+ },
+ {
+  "card": "major-17",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "One low note."
+ },
+ {
+  "card": "major-18",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Blur the edges."
+ },
+ {
+  "card": "major-18",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Sharpen one edge."
+ },
+ {
+  "card": "major-19",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Flood it with light."
+ },
+ {
+  "card": "major-19",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Cast one shadow."
+ },
+ {
+  "card": "major-20",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Read it as a stranger."
+ },
+ {
+  "card": "major-20",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Defend every word."
+ },
+ {
+  "card": "major-21",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Finish the back."
+ },
+ {
+  "card": "major-21",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Leave one face rough."
+ },
+ {
+  "card": "wands-01",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Make one mark."
+ },
+ {
+  "card": "wands-01",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Hide the first mark."
+ },
+ {
+  "card": "wands-02",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Two colours only."
+ },
+ {
+  "card": "wands-02",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Add the third."
+ },
+ {
+  "card": "wands-03",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Squint."
+ },
+ {
+  "card": "wands-03",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Look closer."
+ },
+ {
+  "card": "wands-04",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Frame it tighter."
+ },
+ {
+  "card": "wands-04",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Remove the frame."
+ },
+ {
+  "card": "wands-05",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Scrape back."
+ },
+ {
+  "card": "wands-05",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Build the layer."
+ },
+ {
+  "card": "wands-06",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Cool the warm."
+ },
+ {
+  "card": "wands-06",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Warm the cool."
+ },
+ {
+  "card": "wands-07",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Paint the negative space."
+ },
+ {
+  "card": "wands-07",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Outline nothing."
+ },
+ {
+  "card": "wands-08",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Wrong brush, wrong hand."
+ },
+ {
+  "card": "wands-08",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Steady the hand."
+ },
+ {
+  "card": "wands-09",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Raise the contrast."
+ },
+ {
+  "card": "wands-09",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Mute the loudest."
+ },
+ {
+  "card": "wands-10",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Step back ten paces."
+ },
+ {
+  "card": "wands-10",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Press your nose in."
+ },
+ {
+  "card": "wands-11",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Copy badly, on purpose."
+ },
+ {
+  "card": "wands-11",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Stop copying."
+ },
+ {
+  "card": "wands-12",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Paint fast, stop early."
+ },
+ {
+  "card": "wands-12",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Paint slow, stop late."
+ },
+ {
+  "card": "wands-13",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Choose the dominant colour."
+ },
+ {
+  "card": "wands-13",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Demote the dominant colour."
+ },
+ {
+  "card": "wands-14",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Decide the focal point."
+ },
+ {
+  "card": "wands-14",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Remove the focal point."
+ },
+ {
+  "card": "cups-01",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Hold one note."
+ },
+ {
+  "card": "cups-01",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Break the held note."
+ },
+ {
+  "card": "cups-02",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Answer yourself."
+ },
+ {
+  "card": "cups-02",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Ignore the reply."
+ },
+ {
+  "card": "cups-03",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Change the key."
+ },
+ {
+  "card": "cups-03",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Stay on one chord."
+ },
+ {
+  "card": "cups-04",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Drop a beat."
+ },
+ {
+  "card": "cups-04",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Add a beat."
+ },
+ {
+  "card": "cups-05",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Play it twice as slow."
+ },
+ {
+  "card": "cups-05",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Play it twice as fast."
+ },
+ {
+  "card": "cups-06",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Rest longer."
+ },
+ {
+  "card": "cups-06",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Fill the rest."
+ },
+ {
+  "card": "cups-07",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Invert the melody."
+ },
+ {
+  "card": "cups-07",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Retrograde."
+ },
+ {
+  "card": "cups-08",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Lose the bass."
+ },
+ {
+  "card": "cups-08",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Lose the melody."
+ },
+ {
+  "card": "cups-09",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Modulate sharply."
+ },
+ {
+  "card": "cups-09",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Resolve it."
+ },
+ {
+  "card": "cups-10",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Build to nothing."
+ },
+ {
+  "card": "cups-10",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Start at the climax."
+ },
+ {
+  "card": "cups-11",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Hum a fragment."
+ },
+ {
+  "card": "cups-11",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Stop humming."
+ },
+ {
+  "card": "cups-12",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Raise the tempo."
+ },
+ {
+  "card": "cups-12",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Hold the tempo."
+ },
+ {
+  "card": "cups-13",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Sing the line."
+ },
+ {
+  "card": "cups-13",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Mute the voice."
+ },
+ {
+  "card": "cups-14",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Arrange; don't play."
+ },
+ {
+  "card": "cups-14",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Play; don't arrange."
+ },
+ {
+  "card": "coins-01",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Pick up material."
+ },
+ {
+  "card": "coins-01",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Put it down."
+ },
+ {
+  "card": "coins-02",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Carve away."
+ },
+ {
+  "card": "coins-02",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Add clay."
+ },
+ {
+  "card": "coins-03",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Find the armature."
+ },
+ {
+  "card": "coins-03",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Break the armature."
+ },
+ {
+  "card": "coins-04",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Walk around it."
+ },
+ {
+  "card": "coins-04",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Stand still."
+ },
+ {
+  "card": "coins-05",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Take out the middle."
+ },
+ {
+  "card": "coins-05",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Fill the hole."
+ },
+ {
+  "card": "coins-06",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Cast it."
+ },
+ {
+  "card": "coins-06",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Crack the mould."
+ },
+ {
+  "card": "coins-07",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Make it heavier."
+ },
+ {
+  "card": "coins-07",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Make it lighter."
+ },
+ {
+  "card": "coins-08",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Rough it out."
+ },
+ {
+  "card": "coins-08",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Polish one square inch."
+ },
+ {
+  "card": "coins-09",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Tip the base."
+ },
+ {
+  "card": "coins-09",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Level the base."
+ },
+ {
+  "card": "coins-10",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Make it bigger."
+ },
+ {
+  "card": "coins-10",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Make it pocket-sized."
+ },
+ {
+  "card": "coins-11",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Knead; don't shape."
+ },
+ {
+  "card": "coins-11",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Shape; don't knead."
+ },
+ {
+  "card": "coins-12",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Strike once, hard."
+ },
+ {
+  "card": "coins-12",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Tap lightly, many times."
+ },
+ {
+  "card": "coins-13",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Respect the grain."
+ },
+ {
+  "card": "coins-13",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Cut against the grain."
+ },
+ {
+  "card": "coins-14",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Plinth it."
+ },
+ {
+  "card": "coins-14",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Take it off the plinth."
+ },
+ {
+  "card": "swords-01",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Write the last line first."
+ },
+ {
+  "card": "swords-01",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Delete the opening line."
+ },
+ {
+  "card": "swords-02",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Change person."
+ },
+ {
+  "card": "swords-02",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Change tense."
+ },
+ {
+  "card": "swords-03",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Cut every adjective."
+ },
+ {
+  "card": "swords-03",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Spare one adjective."
+ },
+ {
+  "card": "swords-04",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Read it aloud."
+ },
+ {
+  "card": "swords-04",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Read it backwards."
+ },
+ {
+  "card": "swords-05",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Break the sentence."
+ },
+ {
+  "card": "swords-05",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Mend the sentence."
+ },
+ {
+  "card": "swords-06",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Start in the middle."
+ },
+ {
+  "card": "swords-06",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "End at the start."
+ },
+ {
+  "card": "swords-07",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Name the character."
+ },
+ {
+  "card": "swords-07",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Unname the character."
+ },
+ {
+  "card": "swords-08",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Shorter words only."
+ },
+ {
+  "card": "swords-08",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Longer words, slower."
+ },
+ {
+  "card": "swords-09",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Delete the explanation."
+ },
+ {
+  "card": "swords-09",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Explain once, plainly."
+ },
+ {
+  "card": "swords-10",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Cut ten percent."
+ },
+ {
+  "card": "swords-10",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Add one page."
+ },
+ {
+  "card": "swords-11",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Transcribe a conversation."
+ },
+ {
+  "card": "swords-11",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Stop eavesdropping."
+ },
+ {
+  "card": "swords-12",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Write without stopping."
+ },
+ {
+  "card": "swords-12",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Stop mid-sentence."
+ },
+ {
+  "card": "swords-13",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Choose the exact word."
+ },
+ {
+  "card": "swords-13",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Choose the strange word."
+ },
+ {
+  "card": "swords-14",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Decide the ending."
+ },
+ {
+  "card": "swords-14",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Withhold the ending."
+ }
+]

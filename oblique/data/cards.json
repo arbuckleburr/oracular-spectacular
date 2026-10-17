@@ -1,0 +1,704 @@
+[
+ {
+  "id": "major-00",
+  "name": "Le Mat",
+  "english": "The Fool",
+  "arcana": "major",
+  "suit": null,
+  "number": 0,
+  "image": "cards/major-00.jpg"
+ },
+ {
+  "id": "major-01",
+  "name": "Le Bateleur",
+  "english": "The Juggler (Magician)",
+  "arcana": "major",
+  "suit": null,
+  "number": 1,
+  "image": "cards/major-01.jpg"
+ },
+ {
+  "id": "major-02",
+  "name": "La Papesse",
+  "english": "The Popess (High Priestess)",
+  "arcana": "major",
+  "suit": null,
+  "number": 2,
+  "image": "cards/major-02.jpg"
+ },
+ {
+  "id": "major-03",
+  "name": "L'Impératrice",
+  "english": "The Empress",
+  "arcana": "major",
+  "suit": null,
+  "number": 3,
+  "image": "cards/major-03.jpg"
+ },
+ {
+  "id": "major-04",
+  "name": "L'Empereur",
+  "english": "The Emperor",
+  "arcana": "major",
+  "suit": null,
+  "number": 4,
+  "image": "cards/major-04.jpg"
+ },
+ {
+  "id": "major-05",
+  "name": "Le Pape",
+  "english": "The Pope (Hierophant)",
+  "arcana": "major",
+  "suit": null,
+  "number": 5,
+  "image": "cards/major-05.jpg"
+ },
+ {
+  "id": "major-06",
+  "name": "L'Amoureux",
+  "english": "The Lover(s)",
+  "arcana": "major",
+  "suit": null,
+  "number": 6,
+  "image": "cards/major-06.jpg"
+ },
+ {
+  "id": "major-07",
+  "name": "Le Chariot",
+  "english": "The Chariot",
+  "arcana": "major",
+  "suit": null,
+  "number": 7,
+  "image": "cards/major-07.jpg"
+ },
+ {
+  "id": "major-08",
+  "name": "La Justice",
+  "english": "Justice",
+  "arcana": "major",
+  "suit": null,
+  "number": 8,
+  "image": "cards/major-08.jpg"
+ },
+ {
+  "id": "major-09",
+  "name": "L'Hermite",
+  "english": "The Hermit",
+  "arcana": "major",
+  "suit": null,
+  "number": 9,
+  "image": "cards/major-09.jpg"
+ },
+ {
+  "id": "major-10",
+  "name": "La Roue de Fortune",
+  "english": "The Wheel of Fortune",
+  "arcana": "major",
+  "suit": null,
+  "number": 10,
+  "image": "cards/major-10.jpg"
+ },
+ {
+  "id": "major-11",
+  "name": "La Force",
+  "english": "Strength",
+  "arcana": "major",
+  "suit": null,
+  "number": 11,
+  "image": "cards/major-11.jpg"
+ },
+ {
+  "id": "major-12",
+  "name": "Le Pendu",
+  "english": "The Hanged Man",
+  "arcana": "major",
+  "suit": null,
+  "number": 12,
+  "image": "cards/major-12.jpg"
+ },
+ {
+  "id": "major-13",
+  "name": "(La Mort)",
+  "english": "Death",
+  "arcana": "major",
+  "suit": null,
+  "number": 13,
+  "image": "cards/major-13.jpg"
+ },
+ {
+  "id": "major-14",
+  "name": "Tempérance",
+  "english": "Temperance",
+  "arcana": "major",
+  "suit": null,
+  "number": 14,
+  "image": "cards/major-14.jpg"
+ },
+ {
+  "id": "major-15",
+  "name": "Le Diable",
+  "english": "The Devil",
+  "arcana": "major",
+  "suit": null,
+  "number": 15,
+  "image": "cards/major-15.jpg"
+ },
+ {
+  "id": "major-16",
+  "name": "La Maison Dieu",
+  "english": "The Tower (House of God)",
+  "arcana": "major",
+  "suit": null,
+  "number": 16,
+  "image": "cards/major-16.jpg"
+ },
+ {
+  "id": "major-17",
+  "name": "L'Étoile",
+  "english": "The Star",
+  "arcana": "major",
+  "suit": null,
+  "number": 17,
+  "image": "cards/major-17.jpg"
+ },
+ {
+  "id": "major-18",
+  "name": "La Lune",
+  "english": "The Moon",
+  "arcana": "major",
+  "suit": null,
+  "number": 18,
+  "image": "cards/major-18.jpg"
+ },
+ {
+  "id": "major-19",
+  "name": "Le Soleil",
+  "english": "The Sun",
+  "arcana": "major",
+  "suit": null,
+  "number": 19,
+  "image": "cards/major-19.jpg"
+ },
+ {
+  "id": "major-20",
+  "name": "Le Jugement",
+  "english": "Judgement",
+  "arcana": "major",
+  "suit": null,
+  "number": 20,
+  "image": "cards/major-20.jpg"
+ },
+ {
+  "id": "major-21",
+  "name": "Le Monde",
+  "english": "The World",
+  "arcana": "major",
+  "suit": null,
+  "number": 21,
+  "image": "cards/major-21.jpg"
+ },
+ {
+  "id": "wands-01",
+  "name": "As de Bâtons",
+  "english": "Ace of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 1,
+  "image": "cards/wands-01.jpg"
+ },
+ {
+  "id": "wands-02",
+  "name": "Deux de Bâtons",
+  "english": "Two of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 2,
+  "image": "cards/wands-02.jpg"
+ },
+ {
+  "id": "wands-03",
+  "name": "Trois de Bâtons",
+  "english": "Three of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 3,
+  "image": "cards/wands-03.jpg"
+ },
+ {
+  "id": "wands-04",
+  "name": "Quatre de Bâtons",
+  "english": "Four of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 4,
+  "image": "cards/wands-04.jpg"
+ },
+ {
+  "id": "wands-05",
+  "name": "Cinq de Bâtons",
+  "english": "Five of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 5,
+  "image": "cards/wands-05.jpg"
+ },
+ {
+  "id": "wands-06",
+  "name": "Six de Bâtons",
+  "english": "Six of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 6,
+  "image": "cards/wands-06.jpg"
+ },
+ {
+  "id": "wands-07",
+  "name": "Sept de Bâtons",
+  "english": "Seven of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 7,
+  "image": "cards/wands-07.jpg"
+ },
+ {
+  "id": "wands-08",
+  "name": "Huit de Bâtons",
+  "english": "Eight of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 8,
+  "image": "cards/wands-08.jpg"
+ },
+ {
+  "id": "wands-09",
+  "name": "Neuf de Bâtons",
+  "english": "Nine of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 9,
+  "image": "cards/wands-09.jpg"
+ },
+ {
+  "id": "wands-10",
+  "name": "Dix de Bâtons",
+  "english": "Ten of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 10,
+  "image": "cards/wands-10.jpg"
+ },
+ {
+  "id": "wands-11",
+  "name": "Valet de Bâtons",
+  "english": "Page of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 11,
+  "image": "cards/wands-11.jpg"
+ },
+ {
+  "id": "wands-12",
+  "name": "Cavalier de Bâtons",
+  "english": "Knight of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 12,
+  "image": "cards/wands-12.jpg"
+ },
+ {
+  "id": "wands-13",
+  "name": "Reyne de Bâtons",
+  "english": "Queen of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 13,
+  "image": "cards/wands-13.jpg"
+ },
+ {
+  "id": "wands-14",
+  "name": "Roy de Bâtons",
+  "english": "King of Wands",
+  "arcana": "minor",
+  "suit": "wands",
+  "number": 14,
+  "image": "cards/wands-14.jpg"
+ },
+ {
+  "id": "cups-01",
+  "name": "As de Coupes",
+  "english": "Ace of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 1,
+  "image": "cards/cups-01.jpg"
+ },
+ {
+  "id": "cups-02",
+  "name": "Deux de Coupes",
+  "english": "Two of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 2,
+  "image": "cards/cups-02.jpg"
+ },
+ {
+  "id": "cups-03",
+  "name": "Trois de Coupes",
+  "english": "Three of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 3,
+  "image": "cards/cups-03.jpg"
+ },
+ {
+  "id": "cups-04",
+  "name": "Quatre de Coupes",
+  "english": "Four of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 4,
+  "image": "cards/cups-04.jpg"
+ },
+ {
+  "id": "cups-05",
+  "name": "Cinq de Coupes",
+  "english": "Five of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 5,
+  "image": "cards/cups-05.jpg"
+ },
+ {
+  "id": "cups-06",
+  "name": "Six de Coupes",
+  "english": "Six of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 6,
+  "image": "cards/cups-06.jpg"
+ },
+ {
+  "id": "cups-07",
+  "name": "Sept de Coupes",
+  "english": "Seven of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 7,
+  "image": "cards/cups-07.jpg"
+ },
+ {
+  "id": "cups-08",
+  "name": "Huit de Coupes",
+  "english": "Eight of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 8,
+  "image": "cards/cups-08.jpg"
+ },
+ {
+  "id": "cups-09",
+  "name": "Neuf de Coupes",
+  "english": "Nine of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 9,
+  "image": "cards/cups-09.jpg"
+ },
+ {
+  "id": "cups-10",
+  "name": "Dix de Coupes",
+  "english": "Ten of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 10,
+  "image": "cards/cups-10.jpg"
+ },
+ {
+  "id": "cups-11",
+  "name": "Valet de Coupes",
+  "english": "Page of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 11,
+  "image": "cards/cups-11.jpg"
+ },
+ {
+  "id": "cups-12",
+  "name": "Cavalier de Coupes",
+  "english": "Knight of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 12,
+  "image": "cards/cups-12.jpg"
+ },
+ {
+  "id": "cups-13",
+  "name": "Reyne de Coupes",
+  "english": "Queen of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 13,
+  "image": "cards/cups-13.jpg"
+ },
+ {
+  "id": "cups-14",
+  "name": "Roy de Coupes",
+  "english": "King of Cups",
+  "arcana": "minor",
+  "suit": "cups",
+  "number": 14,
+  "image": "cards/cups-14.jpg"
+ },
+ {
+  "id": "coins-01",
+  "name": "As de Deniers",
+  "english": "Ace of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 1,
+  "image": "cards/coins-01.jpg"
+ },
+ {
+  "id": "coins-02",
+  "name": "Deux de Deniers",
+  "english": "Two of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 2,
+  "image": "cards/coins-02.jpg"
+ },
+ {
+  "id": "coins-03",
+  "name": "Trois de Deniers",
+  "english": "Three of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 3,
+  "image": "cards/coins-03.jpg"
+ },
+ {
+  "id": "coins-04",
+  "name": "Quatre de Deniers",
+  "english": "Four of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 4,
+  "image": "cards/coins-04.jpg"
+ },
+ {
+  "id": "coins-05",
+  "name": "Cinq de Deniers",
+  "english": "Five of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 5,
+  "image": "cards/coins-05.jpg"
+ },
+ {
+  "id": "coins-06",
+  "name": "Six de Deniers",
+  "english": "Six of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 6,
+  "image": "cards/coins-06.jpg"
+ },
+ {
+  "id": "coins-07",
+  "name": "Sept de Deniers",
+  "english": "Seven of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 7,
+  "image": "cards/coins-07.jpg"
+ },
+ {
+  "id": "coins-08",
+  "name": "Huit de Deniers",
+  "english": "Eight of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 8,
+  "image": "cards/coins-08.jpg"
+ },
+ {
+  "id": "coins-09",
+  "name": "Neuf de Deniers",
+  "english": "Nine of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 9,
+  "image": "cards/coins-09.jpg"
+ },
+ {
+  "id": "coins-10",
+  "name": "Dix de Deniers",
+  "english": "Ten of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 10,
+  "image": "cards/coins-10.jpg"
+ },
+ {
+  "id": "coins-11",
+  "name": "Valet de Deniers",
+  "english": "Page of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 11,
+  "image": "cards/coins-11.jpg"
+ },
+ {
+  "id": "coins-12",
+  "name": "Cavalier de Deniers",
+  "english": "Knight of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 12,
+  "image": "cards/coins-12.jpg"
+ },
+ {
+  "id": "coins-13",
+  "name": "Reyne de Deniers",
+  "english": "Queen of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 13,
+  "image": "cards/coins-13.jpg"
+ },
+ {
+  "id": "coins-14",
+  "name": "Roy de Deniers",
+  "english": "King of Coins",
+  "arcana": "minor",
+  "suit": "coins",
+  "number": 14,
+  "image": "cards/coins-14.jpg"
+ },
+ {
+  "id": "swords-01",
+  "name": "As d'Épées",
+  "english": "Ace of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 1,
+  "image": "cards/swords-01.jpg"
+ },
+ {
+  "id": "swords-02",
+  "name": "Deux d'Épées",
+  "english": "Two of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 2,
+  "image": "cards/swords-02.jpg"
+ },
+ {
+  "id": "swords-03",
+  "name": "Trois d'Épées",
+  "english": "Three of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 3,
+  "image": "cards/swords-03.jpg"
+ },
+ {
+  "id": "swords-04",
+  "name": "Quatre d'Épées",
+  "english": "Four of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 4,
+  "image": "cards/swords-04.jpg"
+ },
+ {
+  "id": "swords-05",
+  "name": "Cinq d'Épées",
+  "english": "Five of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 5,
+  "image": "cards/swords-05.jpg"
+ },
+ {
+  "id": "swords-06",
+  "name": "Six d'Épées",
+  "english": "Six of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 6,
+  "image": "cards/swords-06.jpg"
+ },
+ {
+  "id": "swords-07",
+  "name": "Sept d'Épées",
+  "english": "Seven of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 7,
+  "image": "cards/swords-07.jpg"
+ },
+ {
+  "id": "swords-08",
+  "name": "Huit d'Épées",
+  "english": "Eight of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 8,
+  "image": "cards/swords-08.jpg"
+ },
+ {
+  "id": "swords-09",
+  "name": "Neuf d'Épées",
+  "english": "Nine of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 9,
+  "image": "cards/swords-09.jpg"
+ },
+ {
+  "id": "swords-10",
+  "name": "Dix d'Épées",
+  "english": "Ten of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 10,
+  "image": "cards/swords-10.jpg"
+ },
+ {
+  "id": "swords-11",
+  "name": "Valet d'Épées",
+  "english": "Page of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 11,
+  "image": "cards/swords-11.jpg"
+ },
+ {
+  "id": "swords-12",
+  "name": "Cavalier d'Épées",
+  "english": "Knight of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 12,
+  "image": "cards/swords-12.jpg"
+ },
+ {
+  "id": "swords-13",
+  "name": "Reyne d'Épées",
+  "english": "Queen of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 13,
+  "image": "cards/swords-13.jpg"
+ },
+ {
+  "id": "swords-14",
+  "name": "Roy d'Épées",
+  "english": "King of Swords",
+  "arcana": "minor",
+  "suit": "swords",
+  "number": 14,
+  "image": "cards/swords-14.jpg"
+ }
+]

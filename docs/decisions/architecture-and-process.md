@@ -33,3 +33,11 @@ Entries in date order. Status flags: active / superseded / partly superseded.
 - Status: active (lifts the earlier hold-off on hosting)
 - Developer asked to commit, push and set up GitHub Pages. Served from `main`, repo root. No build step, so no Vite.
 - Site URL: https://arbuckleburr.github.io/oracular-spectacular/
+
+## 2026-10-17 — Hub page with oracles as sub-pages
+- Status: active
+- Developer: multiple themed oracles are planned; the root index is a hub that unifies them. Oracular Spectacular moves to `oracle/`.
+- Layout: root `index.html` (hub, cards), `style.css` shared, `oracle/index.html` + `oracle/app.js`. Corpus `data/` and `tools/` stay at root (cwd-relative paths in tools); app fetches `../data/phrases.json`. A second oracle will need its own data location; decide then.
+- Consequence: the old root URL now shows the hub, not the app.
+- Placeholders (not approved): hub title "The Oracles", subtitle "Choose an oracle, and cast.", card blurb, footer.
+- "Roll the bones…" subtitle stays on the app page.

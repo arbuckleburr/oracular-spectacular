@@ -1,0 +1,310 @@
+[
+ {
+  "card": "major-00",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Play without rehearsal.",
+  "status": "draft"
+ },
+ {
+  "card": "major-00",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Rehearse the accident.",
+  "status": "draft"
+ },
+ {
+  "card": "major-01",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Use the nearest tool.",
+  "status": "draft"
+ },
+ {
+  "card": "major-01",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Make the tool.",
+  "status": "draft"
+ },
+ {
+  "card": "major-02",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Score the silence.",
+  "status": "draft"
+ },
+ {
+  "card": "major-02",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Interrupt the silence.",
+  "status": "draft"
+ },
+ {
+  "card": "major-03",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Overfill the canvas.",
+  "status": "draft"
+ },
+ {
+  "card": "major-03",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Leave the ground bare.",
+  "status": "draft"
+ },
+ {
+  "card": "major-04",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Impose a form.",
+  "status": "draft"
+ },
+ {
+  "card": "major-04",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Abandon the form.",
+  "status": "draft"
+ },
+ {
+  "card": "major-05",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Obey the old form.",
+  "status": "draft"
+ },
+ {
+  "card": "major-05",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Break the old form.",
+  "status": "draft"
+ },
+ {
+  "card": "major-06",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Pair opposing hues.",
+  "status": "draft"
+ },
+ {
+  "card": "major-06",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Separate the pair.",
+  "status": "draft"
+ },
+ {
+  "card": "major-07",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Never reread.",
+  "status": "draft"
+ },
+ {
+  "card": "major-07",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Reread everything.",
+  "status": "draft"
+ },
+ {
+  "card": "major-08",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Balance on a point.",
+  "status": "draft"
+ },
+ {
+  "card": "major-08",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Let it lean.",
+  "status": "draft"
+ },
+ {
+  "card": "major-09",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Work by lamplight.",
+  "status": "draft"
+ },
+ {
+  "card": "major-09",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Show it daylight.",
+  "status": "draft"
+ },
+ {
+  "card": "major-10",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Return to the start.",
+  "status": "draft"
+ },
+ {
+  "card": "major-10",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Never return.",
+  "status": "draft"
+ },
+ {
+  "card": "major-11",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Underline it; go bold.",
+  "status": "draft"
+ },
+ {
+  "card": "major-11",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Soften the verb.",
+  "status": "draft"
+ },
+ {
+  "card": "major-12",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Paint it upside down.",
+  "status": "draft"
+ },
+ {
+  "card": "major-12",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Rotate a quarter-turn.",
+  "status": "draft"
+ },
+ {
+  "card": "major-13",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Carve it to bone.",
+  "status": "draft"
+ },
+ {
+  "card": "major-13",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Keep the offcuts.",
+  "status": "draft"
+ },
+ {
+  "card": "major-14",
+  "orientation": "upright",
+  "field": "music",
+  "text": "Blend two themes.",
+  "status": "draft"
+ },
+ {
+  "card": "major-14",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "Separate the voices.",
+  "status": "draft"
+ },
+ {
+  "card": "major-15",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Indulge the purple passage.",
+  "status": "draft"
+ },
+ {
+  "card": "major-15",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Cut the flourish.",
+  "status": "draft"
+ },
+ {
+  "card": "major-16",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Drop it.",
+  "status": "draft"
+ },
+ {
+  "card": "major-16",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Brace the weak joint.",
+  "status": "draft"
+ },
+ {
+  "card": "major-17",
+  "orientation": "upright",
+  "field": "music",
+  "text": "One high note.",
+  "status": "draft"
+ },
+ {
+  "card": "major-17",
+  "orientation": "reversed",
+  "field": "music",
+  "text": "One low note.",
+  "status": "draft"
+ },
+ {
+  "card": "major-18",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Blur the edges.",
+  "status": "draft"
+ },
+ {
+  "card": "major-18",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Sharpen one edge.",
+  "status": "draft"
+ },
+ {
+  "card": "major-19",
+  "orientation": "upright",
+  "field": "painting",
+  "text": "Flood it with light.",
+  "status": "draft"
+ },
+ {
+  "card": "major-19",
+  "orientation": "reversed",
+  "field": "painting",
+  "text": "Cast one shadow.",
+  "status": "draft"
+ },
+ {
+  "card": "major-20",
+  "orientation": "upright",
+  "field": "writing",
+  "text": "Read it as a stranger.",
+  "status": "draft"
+ },
+ {
+  "card": "major-20",
+  "orientation": "reversed",
+  "field": "writing",
+  "text": "Defend every word.",
+  "status": "draft"
+ },
+ {
+  "card": "major-21",
+  "orientation": "upright",
+  "field": "sculpture",
+  "text": "Finish the back.",
+  "status": "draft"
+ },
+ {
+  "card": "major-21",
+  "orientation": "reversed",
+  "field": "sculpture",
+  "text": "Leave one face rough.",
+  "status": "draft"
+ }
+]

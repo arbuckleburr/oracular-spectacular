@@ -15,9 +15,12 @@ Antiquated look: vellum (parchment, ink, serif). Details in `decisions/ui-and-in
 
 ## State of the project (2026-10-17)
 - Corpus: COMPLETE, 512/512, signed off by developer. `data/phrases.json`.
-- App code: front-end BUILT (2026-10-17): `index.html`, `style.css`, `app.js` at repo root. No build tooling (plain static files); hosting: GitHub Pages from main, root.
+- App code: front-end BUILT (2026-10-17): `oracle/index.html` + `oracle/app.js`; `style.css` shared at root. Root `index.html` is the hub ("The Oracles") listing oracles as cards. No build tooling (plain static files); hosting: GitHub Pages from main, root.
 - Git: committed and pushed to origin/main (github.com/arbuckleburr/oracular-spectacular); git toplevel is this folder.
-- Live: https://arbuckleburr.github.io/oracular-spectacular/ (GitHub Pages, main branch, root; redeploys on push).
+- Live: hub https://arbuckleburr.github.io/oracular-spectacular/ ; app https://arbuckleburr.github.io/oracular-spectacular/oracle/ (GitHub Pages, main branch, root; redeploys on push).
+
+## Second oracle
+"Oblique Tarot" (built, local): `oblique/index.html`, `oblique/app.js`; data `oblique/data/cards.json` (78 cards) and `oblique/data/prompts.json` (156 approved prompts); images `oblique/cards/` (CC BY-NC-SA 2.5, Ben-Dov). Linked from the hub. Decisions in `decisions/oblique-tarot.md`. Drafts in `oblique/data/drafts/`.
 
 ## Reading order
 1. This file
@@ -39,7 +42,7 @@ Antiquated look: vellum (parchment, ink, serif). Details in `decisions/ui-and-in
 ## Repo layout
 - `data/batch-01..20.json` — verified source batches (rolls null). `data/phrases.json` — merged, rolls assigned; the file the app reads.
 - `tools/` — `make_batch.py` (verify quotes), `tally.py` (counts), `assign_rolls.py` (merge + rolls), plus the one-off builders `build_batch*.py` and `html2txt.py`.
-- `index.html`, `style.css`, `app.js` — the app. Run: `python3 -m http.server` in repo root (fetch needs HTTP, not file://).
+- `index.html` — hub page (card per oracle). `oracle/` — Oracular Spectacular (`index.html`, `app.js`). `style.css` — shared by both. Run: `python3 -m http.server` in repo root (fetch needs HTTP, not file://); app at /oracle/.
 - `docs/` — this documentation.
 
 ## Architecture notes

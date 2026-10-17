@@ -3,58 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Oracular Spectacular</title>
+<title>The Oracles</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main class="sheet">
   <header>
-    <h1>Oracular Spectacular</h1>
-    <p class="sub">Three dice. Five hundred and twelve sayings of the ancients.</p>
+    <h1>The Oracles</h1>
+    <p class="sub">Choose an oracle, and cast.</p>
   </header>
 
-  <section class="dice" id="dice" aria-label="Dice">
-    <div class="die" data-i="0"><svg viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 94,50 50,96 6,50"/><polygon class="inner" points="50,16 82,50 50,84 18,50"/></svg><span class="pip">?</span></div>
-    <div class="die" data-i="1"><svg viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 94,50 50,96 6,50"/><polygon class="inner" points="50,16 82,50 50,84 18,50"/></svg><span class="pip">?</span></div>
-    <div class="die" data-i="2"><svg viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,4 94,50 50,96 6,50"/><polygon class="inner" points="50,16 82,50 50,84 18,50"/></svg><span class="pip">?</span></div>
-  </section>
+  <nav class="cards" aria-label="Oracles">
+    <a class="card" href="oracle/">
+      <h2>Oracular Spectacular</h2>
+      <p>Three eight-sided dice; five hundred and twelve sayings of the ancients, from many lands.</p>
+    </a>
+    <a class="card" href="oblique/">
+      <h2>Oblique Tarot</h2>
+      <p>Three cards from a Marseille deck, each with a terse prompt for the writer, painter, sculptor or composer.</p>
+    </a>
+  </nav>
 
-  <div class="actions">
-    <button id="roll" type="button">Cast the dice</button>
-  </div>
-
-  <section class="manual" aria-labelledby="manual-h">
-    <h2 id="manual-h">Three eight-sided dice.</h2>
-    <p class="hint">Casting your own? Enter what each die shows.</p>
-    <form id="manual" class="manual-form">
-      <label>Die 1 <select id="m1"><option value="">&ndash;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option></select></label>
-      <label>Die 2 <select id="m2"><option value="">&ndash;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option></select></label>
-      <label>Die 3 <select id="m3"><option value="">&ndash;</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option></select></label>
-      <button id="read" type="submit" disabled>Read my cast</button>
-    </form>
-  </section>
-
-  <section id="oracle" class="oracle" aria-live="polite" hidden>
-    <blockquote><p id="text"></p></blockquote>
-    <p class="attr"><span id="source"></span></p>
-    <p class="meta"><span id="tradition"></span> &middot; <span id="era"></span><br><span id="translator"></span></p>
-    <div class="actions small">
-      <button id="copy" type="button">Copy</button>
-      <button id="save" type="button">Save</button>
-      <span id="note" class="note" role="status"></span>
-    </div>
-  </section>
-
-  <p id="error" class="error" hidden></p>
-
-  <section class="saved">
-    <h2>Saved sayings</h2>
-    <p id="empty" class="empty">Nothing saved yet.</p>
-    <ul id="list"></ul>
-  </section>
-
-  <footer>Rolls are drawn with the browser's secure random source. Saved sayings stay in this browser only.</footer>
+  <footer>More oracles will be added here.</footer>
 </main>
-<script src="app.js"></script>
 </body>
 </html>
