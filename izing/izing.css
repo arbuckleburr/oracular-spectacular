@@ -133,3 +133,7 @@ body.izing {
 .field[hidden], .progress[hidden], .coinbox[hidden], .tally[hidden] { display: none; }
 @media (max-width: 560px) { .coinbox { gap: 14px; height: 150px; padding: 50px 0 26px; } .coin { width: 80px; height: 80px; } .cface b { font-size: 2rem; } }
 @media (prefers-reduced-motion: reduce) { .figure li.new .bar { animation: none; } }
+.say { scroll-margin-top: 14px; }
+/* The shared button:hover turns the background dark red; the unselected method button has red text, so it vanished. */
+.modes .mode:hover:not(:disabled) { background: rgba(179,38,30,.14); color: var(--rubric); }
+.modes .mode.on:hover:not(:disabled) { background: var(--rubric); color: var(--vellum); }

@@ -185,7 +185,8 @@
 
   function finish() {
     phase = "done"; field.classList.remove("busy");
-    $("random").hidden = true;
+    $("random").hidden = true; $("toss").hidden = true; $("tossrest").hidden = true; $("go").hidden = true;
+    $("castagain").hidden = false;
     setSay("The six lines are cast.");
     showReading({ values: values.slice() }, true);
   }
@@ -228,7 +229,10 @@
     $("reading").hidden = false;
     var rd = $("reading"); rd.style.animation = "none"; void rd.offsetWidth; rd.style.animation = "";
     refreshSave();
-    if (scroll && rd.scrollIntoView) rd.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+    // Keep the coins (and the Cast again button under them) in view; the reading sits just below.
+    // A reading opened from the saved list has no altar to keep, so go to the reading itself.
+    var anchor = phase === "done" && values.length === 6 && key(values) === key(r.values) ? $("say") : rd;
+    if (scroll && anchor.scrollIntoView) anchor.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
   }
 
   function readingText(r) {
@@ -379,7 +383,7 @@
     $("mCoins").classList.toggle("on", coins); $("mCoins").setAttribute("aria-pressed", String(coins));
     $("mStalks").classList.toggle("on", !coins); $("mStalks").setAttribute("aria-pressed", String(!coins));
     $("coinbox").hidden = !coins; $("tally").hidden = !coins; $("field").hidden = coins; $("progress").hidden = coins;
-    $("toss").hidden = !coins; $("tossrest").hidden = true; $("go").hidden = coins; $("random").hidden = true;
+    $("toss").hidden = !coins; $("tossrest").hidden = true; $("go").hidden = coins; $("random").hidden = true; $("castagain").hidden = true;
   }
   function setMode(m) {
     if (m === mode) return;
@@ -443,7 +447,7 @@
   coinEls().forEach(function (c, i) { c.addEventListener("click", function () { throwCoin(i, false); }); });
   $("mCoins").addEventListener("click", function () { setMode("coins"); });
   $("mStalks").addEventListener("click", function () { setMode("stalks"); });
-  $("again").addEventListener("click", function () { reset(); });
+  $("castagain").addEventListener("click", function () { reset(); });
   $("copy").addEventListener("click", function () {
     if (current) copyText(readingText(current)).then(function () { note("Copied."); }, function () { note("Copy failed."); });
   });

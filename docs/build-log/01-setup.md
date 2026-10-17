@@ -187,3 +187,13 @@ Bullets only. Append only; never edit past entries.
 
 ## 2026-10-17 zing review progress
 - batches 1-3 (hexagrams 1-24) reviewed: edits to 7, 9, 13 by developer; rest kept; review paused, resume at 25; hip.json holds reviewed 1-24 + unreviewed 25-64; not committed
+
+## 2026-10-17 I Zing: Cast again moved under the coins
+- #castagain button now sits in the altar button row (under the coins / stalk field), shown when a cast finishes; removed the old one from the reading's button row
+- on finish the page scrolls so the caption/coins are at the top and the reading is just below (was: scrolled to the reading, leaving the altar off screen); saved-list "View" still scrolls to the reading
+- tested in browser pane (coins mode): button under coins after a cast, resets coins/figure/reading; stalks mode and mobile not tested; not committed
+
+## 2026-10-17 I Zing: method switch hover text unreadable
+- cause: shared button:hover sets a dark red background; the unselected method button has red text, so red on red
+- fix: .modes .mode:hover keeps red text on a light red tint; the selected one keeps vellum text on red
+- checked by hovering both buttons in each mode in the browser pane; other buttons already had their own hover rules; not committed

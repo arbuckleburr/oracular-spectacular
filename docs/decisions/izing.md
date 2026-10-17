@@ -74,3 +74,7 @@ Entries in date order. Status flags: active / superseded / partly superseded.
 - Batch 1 (1-8): #7 replaced by the developer's own line ("ballet company: pirouettes on the march, and a lazy eye or two"; typo "pirouttes" corrected). 1-6 and 8 kept as is. Applied to hip.json and the draft file, hexagrams.json rebuilt; not committed.
 - Batch 2 (9-16): developer rewrote #9 ("...have said everything that wasn't nailed down") and #13 ("Gather outside, but not outside outside, with lazy people. Fellowship only works in a basement that has not yet earned the sun.") verbatim; 10-12 and 14-16 kept. Applied; not committed.
 - Batch 3 (17-24): all kept as written. Review paused by the developer; resume at batch 4 (hexagrams 25-32). Lines 1-24 are reviewed; 25-64 are the unreviewed v2 drafts, already in hip.json (so on the local page), awaiting review. Lines flagged by me as weakest or repeating an image: 11, 16, 22 (hat), 32, 41, 58, 60 (hat).
+
+## 2026-10-17 — Cast again sits under the coins
+- Status: active
+- Developer: the button belongs under the coins, not at the bottom of the reading. It now replaces the throw buttons once six lines are cast, in both methods; after a cast the view keeps the coins on screen with the reading directly below.
