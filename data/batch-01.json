@@ -1,0 +1,578 @@
+[
+ {
+  "id": "b1-01",
+  "roll": null,
+  "text": "Do not act as if thou wert going to live ten thousand years. Death hangs over thee. While thou livest, while it is in thy power, be good.",
+  "source": "Marcus Aurelius, Meditations 4.17",
+  "tradition": "Roman",
+  "era": "2nd c. CE",
+  "translator": "George Long, 1862"
+ },
+ {
+  "id": "b1-02",
+  "roll": null,
+  "text": "That which is not good for the swarm, neither is it good for the bee.",
+  "source": "Marcus Aurelius, Meditations 6.54",
+  "tradition": "Roman",
+  "era": "2nd c. CE",
+  "translator": "George Long, 1862"
+ },
+ {
+  "id": "b1-03",
+  "roll": null,
+  "text": "Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.",
+  "source": "Marcus Aurelius, Meditations 5.16",
+  "tradition": "Roman",
+  "era": "2nd c. CE",
+  "translator": "George Long, 1862"
+ },
+ {
+  "id": "b1-04",
+  "roll": null,
+  "text": "The best way of avenging thyself is not to become like [the wrong-doer].",
+  "source": "Marcus Aurelius, Meditations 6.6",
+  "tradition": "Roman",
+  "era": "2nd c. CE",
+  "translator": "George Long, 1862"
+ },
+ {
+  "id": "b1-05",
+  "roll": null,
+  "text": "Everything is only for a day, both that which remembers and that which is remembered.",
+  "source": "Marcus Aurelius, Meditations 4.35",
+  "tradition": "Roman",
+  "era": "2nd c. CE",
+  "translator": "George Long, 1862"
+ },
+ {
+  "id": "b1-06",
+  "roll": null,
+  "text": "Take away thy opinion, and then there is taken away the complaint, \"I have been harmed.\" Take away the complaint, \"I have been harmed,\" and the harm is taken away.",
+  "source": "Marcus Aurelius, Meditations 4.7",
+  "tradition": "Roman",
+  "era": "2nd c. CE",
+  "translator": "George Long, 1862"
+ },
+ {
+  "id": "b1-07",
+  "roll": null,
+  "text": "Remember that to change thy opinion and to follow him who corrects thy error is as consistent with freedom as it is to persist in thy error.",
+  "source": "Marcus Aurelius, Meditations 8.16",
+  "tradition": "Roman",
+  "era": "2nd c. CE",
+  "translator": "George Long, 1862"
+ },
+ {
+  "id": "b1-08",
+  "roll": null,
+  "text": "Remember that in life you ought to behave as at a banquet.",
+  "source": "Epictetus, Enchiridion 15",
+  "tradition": "Greek (Roman Empire)",
+  "era": "c. 100 CE",
+  "translator": "George Long, 1877"
+ },
+ {
+  "id": "b1-09",
+  "roll": null,
+  "text": "Everything has two handles, the one by which it may be borne, the other by which it may not.",
+  "source": "Epictetus, Enchiridion 43",
+  "tradition": "Greek (Roman Empire)",
+  "era": "c. 100 CE",
+  "translator": "George Long, 1877"
+ },
+ {
+  "id": "b1-10",
+  "roll": null,
+  "text": "It is a man’s own opinions which disturb him.",
+  "source": "Epictetus, Discourses (Long's selection)",
+  "tradition": "Greek (Roman Empire)",
+  "era": "c. 100 CE",
+  "translator": "George Long, 1877"
+ },
+ {
+  "id": "b1-11",
+  "roll": null,
+  "text": "Seek not that the things which happen should happen as you wish; but wish the things which happen to be as they are, and you will have a tranquil flow of life.",
+  "source": "Epictetus, Enchiridion 8",
+  "tradition": "Greek (Roman Empire)",
+  "era": "c. 100 CE",
+  "translator": "George Long, 1877"
+ },
+ {
+  "id": "b1-12",
+  "roll": null,
+  "text": "The unexamined life is not worth living",
+  "source": "Plato, Apology",
+  "tradition": "Greek",
+  "era": "399 BCE",
+  "translator": "Benjamin Jowett, 1871"
+ },
+ {
+  "id": "b1-13",
+  "roll": null,
+  "text": "No evil can happen to a good man, either in life or after death.",
+  "source": "Plato, Apology",
+  "tradition": "Greek",
+  "era": "399 BCE",
+  "translator": "Benjamin Jowett, 1871"
+ },
+ {
+  "id": "b1-14",
+  "roll": null,
+  "text": "The difficulty, my friends, is not to avoid death, but to avoid unrighteousness; for that runs faster than death.",
+  "source": "Plato, Apology",
+  "tradition": "Greek",
+  "era": "399 BCE",
+  "translator": "Benjamin Jowett, 1871"
+ },
+ {
+  "id": "b1-15",
+  "roll": null,
+  "text": "He, O men, is the wisest, who, like Socrates, knows that his wisdom is in truth worth nothing",
+  "source": "Plato, Apology",
+  "tradition": "Greek",
+  "era": "399 BCE",
+  "translator": "Benjamin Jowett, 1871"
+ },
+ {
+  "id": "b1-16",
+  "roll": null,
+  "text": "I neither know nor think that I know.",
+  "source": "Plato, Apology",
+  "tradition": "Greek",
+  "era": "399 BCE",
+  "translator": "Benjamin Jowett, 1871"
+ },
+ {
+  "id": "b1-17",
+  "roll": null,
+  "text": "Slow but steady wins the race.",
+  "source": "Aesop, Fables, \"The Hare and the Tortoise\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-18",
+  "roll": null,
+  "text": "Those who seek to please everybody please nobody.",
+  "source": "Aesop, Fables, \"The Man and His Two Sweethearts\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-19",
+  "roll": null,
+  "text": "Example is more powerful than precept.",
+  "source": "Aesop, Fables, \"The Crab and Its Mother\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-20",
+  "roll": null,
+  "text": "In quarreling about the shadow we often lose the substance.",
+  "source": "Aesop, Fables, \"The Ass and His Shadow\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-21",
+  "roll": null,
+  "text": "Misfortune tests the sincerity of friends.",
+  "source": "Aesop, Fables, \"The Bear and the Two Travelers\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-22",
+  "roll": null,
+  "text": "Pride goes before destruction.",
+  "source": "Aesop, Fables, \"The Fighting Cocks and the Eagle\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-23",
+  "roll": null,
+  "text": "Those who suffer most cry out the least.",
+  "source": "Aesop, Fables, \"The Oxen and the Axle-Trees\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-24",
+  "roll": null,
+  "text": "He is wise who is warned by the misfortunes of others.",
+  "source": "Aesop, Fables, \"The Sick Lion\"",
+  "tradition": "Greek",
+  "era": "6th c. BCE (traditional)",
+  "translator": "George Fyler Townsend, 1867"
+ },
+ {
+  "id": "b1-25",
+  "roll": null,
+  "text": "Is it not pleasant to learn with a constant perseverance and application?",
+  "source": "Confucius, Analects 1.1 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-26",
+  "roll": null,
+  "text": "The cautious seldom err.",
+  "source": "Confucius, Analects 4.23 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-27",
+  "roll": null,
+  "text": "Learning without thought is labour lost; thought without learning is perilous.",
+  "source": "Confucius, Analects 2.15 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-28",
+  "roll": null,
+  "text": "The superior man is catholic and no partisan. The mean man is partisan and not catholic.",
+  "source": "Confucius, Analects 2.14 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-29",
+  "roll": null,
+  "text": "When you have faults, do not fear to abandon them.",
+  "source": "Confucius, Analects 1.8 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-30",
+  "roll": null,
+  "text": "Virtue is not left to stand alone. He who practises it will have neighbors.",
+  "source": "Confucius, Analects 4.25 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-31",
+  "roll": null,
+  "text": "If a man in the morning hear the right way, he may die in the evening without regret.",
+  "source": "Confucius, Analects 4.8 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-32",
+  "roll": null,
+  "text": "To go beyond is as wrong as to fall short.",
+  "source": "Confucius, Analects 11.15 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-33",
+  "roll": null,
+  "text": "When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it;-- this is knowledge.",
+  "source": "Confucius, Analects 2.17 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-34",
+  "roll": null,
+  "text": "When I walk along with two others, they may serve me as my teachers.",
+  "source": "Confucius, Analects 7.21 (Legge numbering)",
+  "tradition": "Chinese",
+  "era": "5th c. BCE",
+  "translator": "James Legge, 1861"
+ },
+ {
+  "id": "b1-35",
+  "roll": null,
+  "text": "The journey of a thousand li commenced with a single step.",
+  "source": "Laozi, Tao Te Ching 64",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-36",
+  "roll": null,
+  "text": "He who knows other men is discerning; he who knows himself is intelligent.",
+  "source": "Laozi, Tao Te Ching 33",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-37",
+  "roll": null,
+  "text": "He who overcomes others is strong; he who overcomes himself is mighty.",
+  "source": "Laozi, Tao Te Ching 33",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-38",
+  "roll": null,
+  "text": "The highest excellence is like (that of) water.",
+  "source": "Laozi, Tao Te Ching 8",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-39",
+  "roll": null,
+  "text": "The soft overcomes the hard; and the weak the strong.",
+  "source": "Laozi, Tao Te Ching 36",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-40",
+  "roll": null,
+  "text": "Governing a great state is like cooking small fish.",
+  "source": "Laozi, Tao Te Ching 60",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-41",
+  "roll": null,
+  "text": "Gravity is the root of lightness; stillness, the ruler of movement.",
+  "source": "Laozi, Tao Te Ching 26",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-42",
+  "roll": null,
+  "text": "The great Tao (or way) is very level and easy; but people love the by-ways.",
+  "source": "Laozi, Tao Te Ching 53",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-43",
+  "roll": null,
+  "text": "He who knows (the Tao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.",
+  "source": "Laozi, Tao Te Ching 56",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-44",
+  "roll": null,
+  "text": "Who is content needs fear no shame.",
+  "source": "Laozi, Tao Te Ching 44",
+  "tradition": "Chinese",
+  "era": "6th-4th c. BCE",
+  "translator": "James Legge, 1891"
+ },
+ {
+  "id": "b1-45",
+  "roll": null,
+  "text": "You cannot speak of ocean to a well-frog,--the creature of a narrower sphere.",
+  "source": "Zhuangzi 17",
+  "tradition": "Chinese",
+  "era": "4th c. BCE",
+  "translator": "Herbert A. Giles, 1889"
+ },
+ {
+  "id": "b1-46",
+  "roll": null,
+  "text": "You cannot speak of ice to a summer insect,--the creature of a season.",
+  "source": "Zhuangzi 17",
+  "tradition": "Chinese",
+  "era": "4th c. BCE",
+  "translator": "Herbert A. Giles, 1889"
+ },
+ {
+  "id": "b1-47",
+  "roll": null,
+  "text": "My life has a limit, but my knowledge is without limit.",
+  "source": "Zhuangzi 3",
+  "tradition": "Chinese",
+  "era": "4th c. BCE",
+  "translator": "Herbert A. Giles, 1889"
+ },
+ {
+  "id": "b1-48",
+  "roll": null,
+  "text": "All that we are is the result of what we have thought: it is founded on our thoughts, it is made up of our thoughts.",
+  "source": "Dhammapada v. 1",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-49",
+  "roll": null,
+  "text": "For hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule.",
+  "source": "Dhammapada v. 5",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-50",
+  "roll": null,
+  "text": "As rain breaks through an ill-thatched house, passion will break through an unreflecting mind.",
+  "source": "Dhammapada v. 13",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-51",
+  "roll": null,
+  "text": "Earnestness is the path of immortality (Nirvana), thoughtlessness the path of death.",
+  "source": "Dhammapada v. 21",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-52",
+  "roll": null,
+  "text": "Long is the night to him who is awake; long is a mile to him who is tired; long is life to the foolish who do not know the true law.",
+  "source": "Dhammapada v. 60",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-53",
+  "roll": null,
+  "text": "The fool who knows his foolishness, is wise at least so far. But a fool who thinks himself wise, he is called a fool indeed.",
+  "source": "Dhammapada v. 63",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-54",
+  "roll": null,
+  "text": "Well-makers lead the water (wherever they like); fletchers bend the arrow; carpenters bend a log of wood; wise people fashion themselves.",
+  "source": "Dhammapada v. 80",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-55",
+  "roll": null,
+  "text": "As a solid rock is not shaken by the wind, wise people falter not amidst blame and praise.",
+  "source": "Dhammapada v. 81",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-56",
+  "roll": null,
+  "text": "Self is the lord of self, who else could be the lord?",
+  "source": "Dhammapada v. 160",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-57",
+  "roll": null,
+  "text": "Not to commit any sin, to do good, and to purify one's mind, that is the teaching of (all) the Awakened.",
+  "source": "Dhammapada v. 183",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-58",
+  "roll": null,
+  "text": "Let a man overcome anger by love, let him overcome evil by good; let him overcome the greedy by liberality, the liar by truth!",
+  "source": "Dhammapada v. 223",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-59",
+  "roll": null,
+  "text": "The fault of others is easily perceived, but that of oneself is difficult to perceive",
+  "source": "Dhammapada v. 252",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-60",
+  "roll": null,
+  "text": "Whatever a hater may do to a hater, or an enemy to an enemy, a wrongly-directed mind will do us greater mischief.",
+  "source": "Dhammapada v. 42",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-61",
+  "roll": null,
+  "text": "As the bee collects nectar and departs without injuring the flower, or its colour or scent, so let a sage dwell in his village.",
+  "source": "Dhammapada v. 49",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-62",
+  "roll": null,
+  "text": "Like a beautiful flower, full of colour, but without scent, are the fine but fruitless words of him who does not act accordingly.",
+  "source": "Dhammapada v. 51",
+  "tradition": "Indian (Buddhist)",
+  "era": "3rd c. BCE",
+  "translator": "F. Max Muller, 1881"
+ },
+ {
+  "id": "b1-63",
+  "roll": null,
+  "text": "Let right deeds be thy motive, not the fruit which comes from them.",
+  "source": "Bhagavad Gita 2",
+  "tradition": "Indian (Hindu)",
+  "era": "c. 200 BCE-200 CE",
+  "translator": "Edwin Arnold, 1885"
+ },
+ {
+  "id": "b1-64",
+  "roll": null,
+  "text": "Better thine own work is, though done with fault, than doing others' work, ev'n excellently.",
+  "source": "Bhagavad Gita 18",
+  "tradition": "Indian (Hindu)",
+  "era": "c. 200 BCE-200 CE",
+  "translator": "Edwin Arnold, 1885"
+ }
+]

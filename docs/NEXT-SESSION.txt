@@ -1,0 +1,24 @@
+NEXT SESSION
+
+Where we left off (2026-10-17):
+- Corpus COMPLETE and signed off by the developer: 512 verified phrases, data/phrases.json
+  (built from data/batch-01..20.json by tools/assign_rolls.py, seed 20261017). Composition: docs/decisions/phrase-corpus.md.
+- Developer decisions this session: oral-tradition share (~29%) accepted; the thin regions (Oceania, Korea,
+  Native North America, Mesopotamia proper, Persian written wisdom) are NOT to be filled; fresh renderings unused.
+- Hosting: hold LIFTED 2026-10-17; developer chose GitHub Pages (main branch, root). Tooling stays plain static (no Vite).
+- Front-end built 2026-10-17 (index.html, style.css, app.js; plain static, no tooling). Nothing committed or pushed. Git toplevel = project folder.
+
+Likely next steps (ask the developer which):
+1. Decide hosting/tooling (when the developer lifts the hold).
+2. Refine the app (built per docs/decisions/ui-and-interaction.md; run TESTING-OWED.md checks):
+   - 3 visible dice; roll animation stops one die at a time; phrase appears after the last die.
+   - Vellum look (parchment, ink, serif); copy phrase; save phrases (localStorage); reroll.
+   - Dice via crypto.getRandomValues + rejection sampling; look up data/phrases.json by key "d1-d2-d3".
+   - Show source, tradition, era and translator with each phrase (some Tirukkural texts contain a newline between couplet lines).
+3. Add real entries to docs/TESTING-OWED.md as features appear.
+4. Git: check `git rev-parse --show-toplevel` first (the folder sits inside a home-directory repo); nothing is committed.
+
+Do not touch the corpus unless asked. Any batch edit needs `python3 -I tools/assign_rolls.py`, which reshuffles every roll.
+Source texts are not in the repo (they were in a session scratchpad); ids to re-download are in docs/build-log/01-setup.md.
+
+Testing backlog: see TESTING-OWED.md
