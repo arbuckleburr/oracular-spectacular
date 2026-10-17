@@ -12,7 +12,7 @@ Where we left off (2026-10-17):
 
 Second oracle (2026-10-17): "Oblique Tarot" (Tarot x Oblique Strategies; 78 cards, 3-card spread, Marseille imagery, original prompts crafted with developer). See decisions/oblique-tarot.md. All 156 prompts approved by the developer; page built (oblique/), hub card added; tested locally; committed and pushed (35ac006). Next: run TESTING-OWED checks on the live site.
 
-Third oracle (2026-10-17): "I Zing", yarrow stalks + I Ching (Legge 1882 judgments, hip versions). Built in izing/; hub card added; tested locally (full cast, save, reset). NOT committed. Developer has not reviewed the 64 hip versions (stronger slang?), the moving-line behaviour, or the Chinese styling. See decisions/izing.md.
+Third oracle (2026-10-17): "I Zing", yarrow stalks + I Ching (Legge 1882 judgments, hip versions). Built in izing/; hub card added; tested locally; committed and pushed (f5ae072). The page still shows the old slang versions; the weird v2 drafts in izing/data/drafts await approval, after which swap them into izing/data/hip.json and re-run tools/build_izing.py. Developer has not reviewed, the moving-line behaviour, or the Chinese styling. See decisions/izing.md.
 
 Likely next steps (ask the developer which):
 1. Open the live site and run TESTING-OWED.md checks (mobile, copy, reload, reduced motion).
