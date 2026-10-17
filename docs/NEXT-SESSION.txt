@@ -7,10 +7,10 @@ Where we left off (2026-10-17):
   Native North America, Mesopotamia proper, Persian written wisdom) are NOT to be filled; fresh renderings unused.
 - Hosting: hold LIFTED 2026-10-17; developer chose GitHub Pages (main branch, root). Tooling stays plain static (no Vite).
 - Front-end built 2026-10-17 (index.html, style.css, app.js; plain static, no tooling), incl. manual dice entry.
-- Hub restructure (2026-10-17): root index.html = hub, app moved to oracle/; NOT yet committed/pushed. Hub title "The Oracles" and its blurbs are placeholders the developer has not approved.
+- Hub restructure (2026-10-17): root index.html = hub, app moved to oracle/; committed and pushed (35ac006). Hub title "The Oracles" and its blurbs are placeholders the developer has not approved.
 - Previously committed and pushed to origin/main; GitHub Pages live at https://arbuckleburr.github.io/oracular-spectacular/. Git toplevel = project folder.
 
-Second oracle (2026-10-17): "Oblique Tarot" (Tarot x Oblique Strategies; 78 cards, 3-card spread, Marseille imagery, original prompts crafted with developer). See decisions/oblique-tarot.md. All 156 prompts approved by the developer; page built (oblique/), hub card added; tested locally. NOT committed or pushed. Next: run TESTING-OWED checks, commit/push when asked.
+Second oracle (2026-10-17): "Oblique Tarot" (Tarot x Oblique Strategies; 78 cards, 3-card spread, Marseille imagery, original prompts crafted with developer). See decisions/oblique-tarot.md. All 156 prompts approved by the developer; page built (oblique/), hub card added; tested locally; committed and pushed (35ac006). Next: run TESTING-OWED checks on the live site.
 
 Likely next steps (ask the developer which):
 1. Open the live site and run TESTING-OWED.md checks (mobile, copy, reload, reduced motion).
