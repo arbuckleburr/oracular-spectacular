@@ -180,3 +180,10 @@ Bullets only. Append only; never edit past entries.
 ## 2026-10-17 I Zing coin spacing fix
 - previous change shrank the coin box but the coins still sat flush against the tally text below; added bottom padding so coins sit above it (.coinbox height 176, padding 54/0/30; mobile 150, 50/0/26)
 - measured in browser pane: coin bottom to tally 32 px (was ~2), caption to coin 56 px; mobile not checked; not committed
+
+## 2026-10-17 zing v2 applied
+- hip.json <- zing-weird-draft.json (64); old slang copied to drafts/hip-slang-v1.json; build_izing.py re-run; footer reworded
+- checked in browser pane: reading shows new text; not committed
+
+## 2026-10-17 zing review progress
+- batches 1-3 (hexagrams 1-24) reviewed: edits to 7, 9, 13 by developer; rest kept; review paused, resume at 25; hip.json holds reviewed 1-24 + unreviewed 25-64; not committed

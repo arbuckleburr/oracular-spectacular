@@ -61,4 +61,16 @@ Entries in date order. Status flags: active / superseded / partly superseded.
 - Status: active (supersedes the first 64 weird drafts; v1 kept as `izing/data/drafts/zing-weird-draft-v1.json`)
 - Developer: the 64 didn't have the vibe of the earlier examples. Audit of v1: many had drifted into tidy whimsical advice built on stock similes ("like a ..." 9x, "don't / do not" 16x) and repeated props (umbrella 4x, hat 3x, goat, soup, elder). The ones the developer liked kept a specific odd image, a deadpan reversal and a queer-camp edge (wardrobe sequins, changing your name in the mirror, a creature that has never been furniture).
 - v2: kept the 9 that worked (1, 2, 20, 23, 29, 36, 44, 49, 64); rewrote the other 55 around one concrete, odd, specific scene each, with drag/glamour/names/wardrobe/chosen-family flavour used sparingly, and cut the tics. Current file: `izing/data/drafts/zing-weird-draft.json`.
-- Still NOT applied to `izing/data/hip.json`: the live site shows the old slang versions until the developer approves.
+- Applied 2026-10-17 (see below).
+
+## 2026-10-17 — Weird v2 Zing versions applied
+- Status: active (supersedes the slang set in "The Zing versions")
+- Developer approved ("Apply the new Zing versions"). `izing/data/hip.json` now holds the v2 set (file name kept for the build script); the slang set is kept as `izing/data/drafts/hip-slang-v1.json`. `hexagrams.json` rebuilt. Page footer reworded: "loose, deliberately strange reinterpretations ... not translations".
+- Individual lines may still be revised on request (earlier flagged as weaker: 11, 19, 32, 41, 58).
+
+## 2026-10-17 — Line-by-line review of the Zing versions
+- Status: active
+- Developer is reviewing in batches of 8 hexagrams (1-8, 9-16, ...). Developer-written or developer-approved lines are final unless they ask to change them.
+- Batch 1 (1-8): #7 replaced by the developer's own line ("ballet company: pirouettes on the march, and a lazy eye or two"; typo "pirouttes" corrected). 1-6 and 8 kept as is. Applied to hip.json and the draft file, hexagrams.json rebuilt; not committed.
+- Batch 2 (9-16): developer rewrote #9 ("...have said everything that wasn't nailed down") and #13 ("Gather outside, but not outside outside, with lazy people. Fellowship only works in a basement that has not yet earned the sun.") verbatim; 10-12 and 14-16 kept. Applied; not committed.
+- Batch 3 (17-24): all kept as written. Review paused by the developer; resume at batch 4 (hexagrams 25-32). Lines 1-24 are reviewed; 25-64 are the unreviewed v2 drafts, already in hip.json (so on the local page), awaiting review. Lines flagged by me as weakest or repeating an image: 11, 16, 22 (hat), 32, 41, 58, 60 (hat).
