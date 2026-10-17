@@ -5,6 +5,7 @@ App that rolls three eight-sided dice (3d8) and returns one of 512 combinations 
 
 ## Core features
 - Roll 3d8 → one phrase. Three dice visible on screen; roll animation stops one die at a time.
+- Manual entry: user enters faces of their own physical dice ("Three eight-sided dice." section).
 - Reroll for another.
 - Copy a phrase.
 - Save phrases (browser localStorage).
@@ -15,7 +16,8 @@ Antiquated look: vellum (parchment, ink, serif). Details in `decisions/ui-and-in
 ## State of the project (2026-10-17)
 - Corpus: COMPLETE, 512/512, signed off by developer. `data/phrases.json`.
 - App code: front-end BUILT (2026-10-17): `index.html`, `style.css`, `app.js` at repo root. No build tooling (plain static files); hosting: GitHub Pages from main, root.
-- Git: nothing committed or pushed. Git toplevel is this folder.
+- Git: committed and pushed to origin/main (github.com/arbuckleburr/oracular-spectacular); git toplevel is this folder.
+- Live: https://arbuckleburr.github.io/oracular-spectacular/ (GitHub Pages, main branch, root; redeploys on push).
 
 ## Reading order
 1. This file
@@ -41,6 +43,6 @@ Antiquated look: vellum (parchment, ink, serif). Details in `decisions/ui-and-in
 - `docs/` — this documentation.
 
 ## Architecture notes
-- Platform: web, static site, no backend; saves in localStorage. Hosting and tooling TBD (on hold).
+- Platform: web, static site, no backend; saves in localStorage. Hosted on GitHub Pages; no build tooling (plain HTML/CSS/JS).
 - 512 outcomes = ordered triples of d8 (see `decisions/dice-and-mapping.md`); lookup key is "d1-d2-d3" in `data/phrases.json`.
 - Dice via `crypto.getRandomValues` with rejection sampling (no modulo bias).

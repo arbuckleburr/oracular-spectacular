@@ -22,7 +22,7 @@ Entries in date order. Status flags: active / superseded / partly superseded.
 
 ## 2026-10-17 — Front-end implementation choices
 - Status: active
-- Plain HTML/CSS/JS, no build step; keeps hosting/tooling hold intact. Needs HTTP (fetch of data/phrases.json).
+- Plain HTML/CSS/JS, no build step; chosen while hosting was on hold (hold since lifted; GitHub Pages). Needs HTTP (fetch of data/phrases.json).
 - Dice drawn as flat SVG diamonds with the number (not 3D), system serif stack (Palatino/Georgia), palette: vellum #efe3c2, ink #2a1d12, rubric #8c2a1c.
 - Saved list stores keys only (corpus is static); copy includes full attribution.
 - Resolves "Open: fonts, palette specifics" above.

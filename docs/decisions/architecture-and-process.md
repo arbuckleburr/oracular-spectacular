@@ -13,6 +13,7 @@ Entries in date order. Status flags: active / superseded / partly superseded.
 - Why: one-screen app; framework and backend add cost without benefit.
 - Trade-off: saves don't sync across devices.
 - Open: GitHub Pages vs Netlify; vanilla vs Vite. Developer said HOLD OFF (2026-10-17): do not decide or scaffold until asked.
+> Superseded the same day: GitHub Pages chosen, plain static (no Vite). See "Hosting: GitHub Pages" below.
 
 ## 2026-10-17 — Corpus data format for the app
 - Status: active
@@ -20,7 +21,8 @@ Entries in date order. Status flags: active / superseded / partly superseded.
 - Do not hand-edit it; regenerate with `python3 -I tools/assign_rolls.py` from the `data/batch-*.json` files.
 
 ## 2026-10-17 — Git state
-- Status: active
+- Status: superseded
+> Same day: whole project committed and pushed to origin/main; folder is its own git repo (toplevel = project folder). See build-log "publish".
 - Repo cloned from github.com/arbuckleburr/oracular-spectacular (it was empty). Nothing committed or pushed. The working folder sits inside a larger git repo in the home directory (origin phdynamic/twitterarchive); check `git rev-parse --show-toplevel` before committing so work lands in the right repo.
 
 ## 2026-10-17 — Docs structure: 4 decision themes
