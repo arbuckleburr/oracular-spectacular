@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>I Zing</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="izing.css">
+</head>
+<body class="izing">
+<main class="sheet wide">
+  <header>
+    <p class="crumb"><a href="../">&larr; All the oracles</a></p>
+    <div class="titleblock">
+      <span class="seal" aria-hidden="true">易</span>
+      <div>
+        <h1>I Zing</h1>
+        <p class="sub">The Book of Changes, cast with coins or yarrow stalks</p>
+      </div>
+      <span class="vert" aria-hidden="true">易經</span>
+    </div>
+  </header>
+
+  <p class="hold">Hold your question in mind. The page never sees it.</p>
+
+  <section class="altar" aria-label="Yarrow stalks">
+    <div class="modes" role="group" aria-label="Method of casting">
+      <button id="mCoins" class="mode on" type="button" aria-pressed="true">Three coins <span>quick</span></button>
+      <button id="mStalks" class="mode" type="button" aria-pressed="false">Yarrow stalks <span>slow</span></button>
+    </div>
+    <p id="say" class="say" aria-live="polite"></p>
+    <div id="coinbox" class="coinbox">
+      <button class="coin" type="button" aria-label="Throw coin 1"><span class="cface heads"><b>三</b><small>陽 yang · 3</small></span><span class="cface tails"><b>二</b><small>陰 yin · 2</small></span></button>
+      <button class="coin" type="button" aria-label="Throw coin 2"><span class="cface heads"><b>三</b><small>陽 yang · 3</small></span><span class="cface tails"><b>二</b><small>陰 yin · 2</small></span></button>
+      <button class="coin" type="button" aria-label="Throw coin 3"><span class="cface heads"><b>三</b><small>陽 yang · 3</small></span><span class="cface tails"><b>二</b><small>陰 yin · 2</small></span></button>
+    </div>
+    <p id="tally" class="tally" aria-live="polite"></p>
+    <div id="field" class="field" tabindex="0" role="application" aria-label="Fifty yarrow stalks. Click, or use the arrow keys and Enter, to divide the bundle."></div>
+    <p id="progress" class="progress"></p>
+    <div class="actions">
+      <button id="toss" type="button">Throw all three</button>
+      <button id="tossrest" type="button" class="ghost" hidden>Throw the rest</button>
+      <button id="go" type="button" hidden>Take one stalk aside</button>
+      <button id="random" type="button" hidden>Divide at random</button>
+    </div>
+  </section>
+
+  <section class="figure-wrap">
+    <h2>The lines</h2>
+    <ol id="figure" class="figure" aria-label="Hexagram lines, top to bottom"></ol>
+  </section>
+
+  <section id="reading" class="reading" hidden aria-live="polite">
+    <div class="hexhead">
+      <span id="hglyph" class="hglyph" aria-hidden="true"></span>
+      <div>
+        <p class="hnum" id="hnum"></p>
+        <h2 id="hname"></h2>
+        <p class="hsub" id="hsub"></p>
+      </div>
+    </div>
+    <h3>The Judgment <span class="small">(Legge, 1882)</span></h3>
+    <blockquote id="legge"></blockquote>
+    <h3>The Zing</h3>
+    <blockquote id="zing" class="zing"></blockquote>
+    <div id="becoming" hidden>
+      <p class="becomes">The moving lines turn this into</p>
+      <div class="hexhead small">
+        <span id="bglyph" class="hglyph" aria-hidden="true"></span>
+        <div><p class="hnum" id="bnum"></p><h2 id="bname"></h2><p class="hsub" id="bsub"></p></div>
+      </div>
+      <blockquote id="blegge"></blockquote>
+      <blockquote id="bzing" class="zing"></blockquote>
+    </div>
+    <div class="actions small">
+      <button id="copy" type="button">Copy</button>
+      <button id="save" type="button">Save</button>
+      <button id="again" type="button">Cast again</button>
+      <span id="note" class="note" role="status"></span>
+    </div>
+  </section>
+
+  <p id="error" class="error" hidden></p>
+
+  <section class="saved">
+    <h2>Saved readings</h2>
+    <p id="empty" class="empty">Nothing saved yet.</p>
+    <ul id="list"></ul>
+  </section>
+
+  <footer>
+    The three-coin method (heads 3, tails 2) makes the moving lines twice as likely as the yarrow-stalk method does. Judgments: <em>The Yi King</em>, translated by James Legge, <em>Sacred Books of the East</em> vol. 16 (1882), public domain;
+    names in Legge's romanisation, lightly cleaned from scanned text. The Zing versions are paraphrases written for this site, for fun,
+    and are not a substitute for the book. Saved readings stay in this browser only.
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

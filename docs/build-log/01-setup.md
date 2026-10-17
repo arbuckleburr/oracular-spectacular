@@ -143,3 +143,32 @@ Bullets only. Append only; never edit past entries.
 - symptom: cards jumped above/below the line during flip. cause: perspective(800px) rotateY made the card swell (height 368 -> 417, top 264 -> 239) mid-flip; same for all three, most noticeable beside a settled neighbour
 - fix: flip uses scaleX(1<->0); removed perspective from .cardwrap
 - verified: sampled top/height of all three cards every 60ms through a full redraw: constant 264/368; visual check by developer owed
+
+## 2026-10-17 I Zing
+- source: IA wg916 (Legge 1882, SBE 16) djvu text; 64 Judgments located, 25-odd split across page breaks fixed by hand; cleaned (see decisions/izing.md); izing/data/judgments-legge.json
+- line patterns from trigram table, checked against Legge line texts (63 clean, #4 footnote false alarm)
+- izing/data/hip.json: 64 hip versions (drafts); tools/build_izing.py -> izing/data/hexagrams.json
+- izing/index.html, app.js, izing.css; hub card; click-to-divide casting, 18 changes, moving lines -> becoming hexagram
+- finding: uniform random heap sizes skew line odds (6: 4.7%, 9: 22%); remainder-first random split matches 1/16,5/16,7/16,3/16 (simulated 300k casts)
+- tested in browser pane: real click change (heaps, held stalk, red remainders), full auto cast to hexagram 47 -> 29 (lines verified by hand), save, cast again; not tested: mobile, keyboard, copy, reload; not committed
+
+## 2026-10-17 I Zing bug: viewing a saved reading broke the next cast
+- cause: showReading() copied the viewed reading's six values into the live `values`; begin() never reset it, so after the first new line values.length was 7, the "< 6" test failed and the cast ended after line 1 (same if View was clicked mid-cast)
+- fix: viewing no longer touches `values` (figure drawn from the viewed array, and only when idle/done); begin() resets values/changeNo/current and hides the old reading
+- verified in browser pane: saved reading -> View -> Begin -> line 1 done -> line 2 started; also View clicked mid-cast left the live figure alone; not committed
+
+## 2026-10-17 zing rewrite drafts
+- izing/data/drafts/zing-weird-draft.json: 64 weird/deadpan versions, <=3 sentences; hip.json unchanged; not applied, not committed
+
+## 2026-10-17 I Zing three-coin mode
+- added method switch (coins default / stalks), 3 CSS coins (rotateX spin, face-up stays after landing), toss() / "Throw the rest", figure + reading as before
+- stalk code unchanged; reset() now mode-aware; viewing-a-saved-reading guard extended to phase "ready"
+- footer note on odds; subtitle now "cast with coins or yarrow stalks"
+- tested in browser pane: one throw (1 head 2 tails = 7 correct), throw-the-rest to a reading with a moving line in ~7 s total, switch to stalks and back; not tested: mobile, reduced motion, visual look of tails face; not committed
+
+## 2026-10-17 I Zing coin toss rework
+- coins now buttons (96px, WAAPI toss arc + spin, distinct gold 三 / bronze 二 faces), running tally, line flashes into figure, per-coin or throw-all, throw-the-rest; toss() replaced by throwCoin/throwAll/recordLine/throwRest
+- tested in browser pane: single coin click (animation running, tally "2 + ? + ?"), other two coins, line recorded (7, new-line flash), throw-the-rest to a reading; not tested: mobile, keyboard, reduced motion; not committed
+
+## 2026-10-17 zing drafts v2
+- audited v1 (tic counts), saved as zing-weird-draft-v1.json; rewrote 55 of 64 in zing-weird-draft.json; hip.json still the slang set; not applied, not committed

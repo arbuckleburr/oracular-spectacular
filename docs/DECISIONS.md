@@ -6,4 +6,5 @@ Index of themed decision files. Search them directly; no per-decision table.
 - `decisions/dice-and-mapping.md` — roll mechanics, combination→phrase mapping
 - `decisions/phrase-corpus.md` — sourcing, selection, attribution, translation of the 512 sayings
 - `decisions/oblique-tarot.md` — second oracle (Oblique Tarot): concept, prompt authorship, deck/spread
+- `decisions/izing.md` — third oracle (I Zing): yarrow-stalk casting, Legge source, hip versions
 - `decisions/ui-and-interaction.md` — look and feel, copy/save/reroll behavior

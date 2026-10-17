@@ -22,6 +22,9 @@ Antiquated look: vellum (parchment, ink, serif). Details in `decisions/ui-and-in
 ## Second oracle
 "Oblique Tarot" (built, local): `oblique/index.html`, `oblique/app.js`; data `oblique/data/cards.json` (78 cards) and `oblique/data/prompts.json` (156 approved prompts); images `oblique/cards/` (CC BY-NC-SA 2.5, Ben-Dov). Linked from the hub. Decisions in `decisions/oblique-tarot.md`. Drafts in `oblique/data/drafts/`.
 
+## Third oracle
+"I Zing" (built, local): `izing/` (index.html, app.js, izing.css, `data/hexagrams.json` built by `tools/build_izing.py` from `data/judgments-legge.json` + `data/hip.json`). Two methods: three coins (default, quick) and yarrow stalks (click to divide, slow); 64 Legge judgments + hip versions. Decisions in `decisions/izing.md`. Linked from the hub.
+
 ## Reading order
 1. This file
 2. `STATUS.md`
