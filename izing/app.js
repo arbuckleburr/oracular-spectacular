@@ -327,7 +327,7 @@
       if (reduceMotion || !c.animate) { done(); return; }
       var a = c.animate([
         { transform: "translateY(0px) rotateX(" + base + "deg)" },
-        { transform: "translateY(-74px) rotateX(" + (base + (total - base) / 2) + "deg)", offset: 0.5, easing: "ease-in" },
+        { transform: "translateY(-50px) rotateX(" + (base + (total - base) / 2) + "deg)", offset: 0.5, easing: "ease-in" },
         { transform: "translateY(0px) rotateX(" + total + "deg)" }
       ], { duration: ms, easing: "ease-out" });
       a.onfinish = done; a.oncancel = done;

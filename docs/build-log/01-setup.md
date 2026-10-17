@@ -172,3 +172,7 @@ Bullets only. Append only; never edit past entries.
 
 ## 2026-10-17 zing drafts v2
 - audited v1 (tic counts), saved as zing-weird-draft-v1.json; rewrote 55 of 64 in zing-weird-draft.json; hip.json still the slang set; not applied, not committed
+
+## 2026-10-17 I Zing coins moved up
+- .coinbox height 190 -> 150 px, padding-top 70 -> 54 (mobile 160/56 -> 130/50); toss arc 74 -> 50 px so the coin stays below the caption
+- measured in browser pane: coin at peak 50 px below the caption, at rest 60 px higher than before; mobile not checked
